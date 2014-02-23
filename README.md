@@ -8,6 +8,11 @@ It is needed to have [*Python*](http://www.python.org/), [*Flask*](http://flask.
 
 #Running
 
+Create the database on the root folder
+```
+sqlite3 ./flaskr.db < schema.sql
+```
+
 To run the code:
 ```
 python flaskr.py
